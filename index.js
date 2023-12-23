@@ -1,3 +1,10 @@
+// Get the height of the screen
+        var screenHeight = window.innerHeight;
+
+// Set the background position based on screen height
+        document.body.style.backgroundPosition = screenHeight - "center " + "px";
+        
+
 document.getElementById("vem-e-segue-me").addEventListener("click", function() {
     window.location.href = "https://www.churchofjesuschrist.org/study/come-follow-me?lang=ept";
 });
