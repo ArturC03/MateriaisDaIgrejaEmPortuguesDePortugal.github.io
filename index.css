@@ -12,6 +12,8 @@
 body {
     background-color: ghostwhite;
     background-image:url("https://www.churchofjesuschrist.org/imgs/1ce285b36583a03f255f224c720b94fc09c6a0dc/full/200%2C/0/default.webp") ;
+    background-position-y: 1500%;
+    background-position-x: center ;
     background-repeat: no-repeat;
     justify-content: center;
 }
