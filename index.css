@@ -14,7 +14,7 @@ body {
 }
 #guia-para-os-jovens{
     background-image: url("https://www.churchofjesuschrist.org/imgs/c0868b3a613411eda98feeeeac1e22561215e31c/full/200%2C/0/default");
-    aspect-ratio: 200 / 267;
+    
     
 }
 #jovens-adultos{
@@ -63,15 +63,18 @@ body {
 }
 
 .img-conteudo {
-    aspect-ratio: 200 / 267;
+    
     background-size: cover;
-    height: 226px;
+    width: 5cm;
+    height: 7cm;
     display: flex;
     background-repeat: no-repeat;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 40px;
-    margin-top: 40px;
+    
+    margin-right: 1cm;
+    margin-top: 1cm ;
+   
 }
 .img-container:hover{
     opacity: 0.8; 
@@ -79,14 +82,14 @@ body {
 }
 .img-container {
     aspect-ratio: 200 / 267;
-    width: 159px;
-    height: 226px;
+    width: 3.81cm;
+    height: 9cm;
     border-radius: 4px;
     z-index: 10;
     transition: opacity 0.3s ease;
     background-repeat: no-repeat;
     padding: 20px;
-    border: 1px solid #000;
+    border: 2px solid #000;
 }
 
 .img-conteudo p {
