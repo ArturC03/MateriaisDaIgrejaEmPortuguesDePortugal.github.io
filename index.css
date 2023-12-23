@@ -1,0 +1,112 @@
+/* CSS */
+body {
+    background-color: ghostwhite; 
+}
+
+.conteudo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Divide em duas colunas */
+    gap: 20px; /* Espaço entre os elementos */
+    justify-content: center; /* Centraliza os elementos horizontalmente */
+    margin: 0 10px; /* Adiciona margem horizontal */
+    flex-wrap: wrap; 
+    
+}
+#guia-para-os-jovens{
+    background-image: url("https://www.churchofjesuschrist.org/imgs/c0868b3a613411eda98feeeeac1e22561215e31c/full/200%2C/0/default");
+    aspect-ratio: 200 / 267;
+    
+}
+#jovens-adultos{
+    background-image: url("https://www.churchofjesuschrist.org/imgs/5ebc108688f911eca8b0eeeeac1eaf08bc3de579/full/200%2C/0/default");
+    aspect-ratio: 200 / 267;
+    
+}
+
+#amigo{
+    background-image: url("https://churchofjesuschrist.org/imgs/d8729521e990be0c80df540b45b8957659d4a6cf/full/200%2C/0/default") ;
+    aspect-ratio: 200 / 267;
+}
+
+#para-o-vigor-da-juventude{
+    background-image: url("https://www.churchofjesuschrist.org/imgs/946ae4c4c2491105ffcdeb47746bfd0c2d3be9e4/full/200%2C/0/default");
+    aspect-ratio: 200 / 267;
+}
+
+#liahona {
+    background-image: url("https://www.churchofjesuschrist.org/imgs/2631a48e05024333eb397221ef809167a8a7f9d2/full/200%2C/0/default");
+    aspect-ratio: 200 / 267;
+}
+
+#vem-e-segue-me {
+    background-image: url("https://www.churchofjesuschrist.org/imgs/5cac0253a7d611ed87cfeeeeac1e37294e7e8cbb/full/200%2C/0/default");
+    aspect-ratio: 200 / 267;
+}
+
+h1{
+    text-align: center; /* Centraliza o texto */
+  font-family: 'Montserrat', sans-serif; /* Define uma fonte monoespaçada */
+}
+/* CSS */
+body {
+    background-color: ghostwhite;
+}
+
+.conteudo {
+    
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    
+}
+
+.img-conteudo {
+    aspect-ratio: 200 / 267;
+    background-size: cover;
+    height: 226px;
+    display: flex;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.img-container:hover{
+    opacity: 0.8; 
+    cursor: pointer;
+}
+.img-container {
+    aspect-ratio: 200 / 267;
+    width: 159px;
+    height: 226px;
+    border-radius: 4px;
+    z-index: 10;
+    transition: opacity 0.3s ease;
+    background-repeat: no-repeat;
+    padding: 20px;
+    border: 1px solid #000;
+}
+
+.img-conteudo p {
+    font-family: Lucida Sans,Lucida Grande,Lucida Sans Unicode,Trebuchet MS,sans-serif;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.credits {
+    font-family: Lucida Sans;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8f8f8;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: left;
+    z-index: 9;
+    font-size: 10px;
+    font-size-adjust: initial;
+}
