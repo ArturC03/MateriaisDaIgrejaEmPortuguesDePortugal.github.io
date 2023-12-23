@@ -1,8 +1,15 @@
 // Get the height of the screen
         var screenHeight = window.innerHeight;
+        var screenWidth=window.innerWidth;
+        var tempDiv = document.getElementById("tempDiv");
+        var bgHeight = tempDiv.clientHeight; // Altura da imagem de fundo
+        var bgWidth = tempDiv.clientWidth; // Altura da imagem de fundo
+        
+        var x = screenHeight/2 - bgWidth/2;
 
 // Set the background position based on screen height
-        document.body.style.backgroundPosition = screenHeight - "center " + "px";
+        document.body.style.backgroundPositionY = screenHeight/2 + bgHeight + "px";
+        document.body.style.backgroundPositionX =  screenWidth/2 - 130 + "px";
         
 
 document.getElementById("vem-e-segue-me").addEventListener("click", function() {
