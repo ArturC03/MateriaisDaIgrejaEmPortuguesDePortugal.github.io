@@ -15,58 +15,6 @@ body {
     flex-wrap: wrap; 
     
 }
-#proclamacao-da-restauracao{
-    background-image: url("https://www.churchofjesuschrist.org/imgs/03bf6aab909ef44b45be155c5e2ac0e6374bfaab/full/200%2C/0/default");
-}
-
-#devocionais-de-natal{
-    background-image: url("https://www.churchofjesuschrist.org/imgs/0bcbfe3a773e11eea297eeeeac1e3338fb70eb9e/full/200%2C/0/default");
-}
-
-#guia-para-as-criancas{
-    background-image: url("https://churchofjesuschrist.org/imgs/a82ec4390139fad31a699e661478f77db02992a2/full/200%2C/0/default");
-}
-#conferencia-geral{
-    background-image: url("https://churchofjesuschrist.org/imgs/87de476c26c711ec9229eeeeac1e2796ce35432e/full/200%2C/0/default");
-}
-
-#guia-para-os-jovens{
-    background-image: url("https://www.churchofjesuschrist.org/imgs/c0868b3a613411eda98feeeeac1e22561215e31c/full/200%2C/0/default");
-    
-}
-#tema-dos-jovens{
-    background-image: url("https://churchofjesuschrist.org/imgs/9c2fe617005ece439383cd74e7ee108df1699681/full/200%2C/0/default");
-}
-#ajuda-para-as-presidencias{
-    background-image: url("https://www.churchofjesuschrist.org/imgs/8ef204fb358a43cb71f112bee238a34fde96a6e0/full/200%2C/0/default");
-}
-
-#jovens-adultos{
-    background-image: url("https://www.churchofjesuschrist.org/imgs/5ebc108688f911eca8b0eeeeac1eaf08bc3de579/full/200%2C/0/default");
-    aspect-ratio: 200 / 267;
-    
-}
-
-#amigo{
-    background-image: url("https://churchofjesuschrist.org/imgs/d8729521e990be0c80df540b45b8957659d4a6cf/full/200%2C/0/default") ;
-    aspect-ratio: 200 / 267;
-}
-
-#para-o-vigor-da-juventude{
-    background-image: url("https://www.churchofjesuschrist.org/imgs/946ae4c4c2491105ffcdeb47746bfd0c2d3be9e4/full/200%2C/0/default");
-    aspect-ratio: 200 / 267;
-}
-
-#liahona {
-    background-image: url("https://www.churchofjesuschrist.org/imgs/2631a48e05024333eb397221ef809167a8a7f9d2/full/200%2C/0/default");
-    aspect-ratio: 200 / 267;
-}
-
-#vem-e-segue-me {
-    background-image: url("https://www.churchofjesuschrist.org/imgs/5cac0253a7d611ed87cfeeeeac1e37294e7e8cbb/full/200%2C/0/default");
-    aspect-ratio: 200 / 267;
-}
-
 h1{
     text-align: center; /* Centraliza o texto */
   font-family: 'Montserrat', sans-serif; /* Define uma fonte monoespaçada */
@@ -108,16 +56,27 @@ body {
    
 }
 .img-container:hover{
-    opacity: 0.8; 
+    box-shadow:
+1px 1px #373737,
+2px 2px #373737,
+3px 3px #373737,
+4px 4px #373737,
+5px 5px #373737,
+6px 6px #373737;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+    transition: .5s ease;
     cursor: pointer;
 }
+
 .img-container {
     aspect-ratio: 200 / 267;
     width: 144px;
     height: 15cm;
     border-radius: 4px;
     z-index: 10;
-    transition: opacity 0.3s ease;
+   opacity:normal;
+   transition: .5s ease;
     background-repeat: no-repeat;
     padding:24px;
     border: 2px solid #000;
@@ -128,6 +87,58 @@ body {
     margin-top: 10px;
     text-align: center;
     font-size: 16px;
+}
+
+
+
+#liahona {
+    background-image: url("https://www.churchofjesuschrist.org/imgs/2631a48e05024333eb397221ef809167a8a7f9d2/full/200%2C/0/default");
+    
+}
+
+#vem-e-segue-me {
+    background-image: url("https://www.churchofjesuschrist.org/imgs/5cac0253a7d611ed87cfeeeeac1e37294e7e8cbb/full/200%2C/0/default");
+    
+}
+
+#conferencia-geral{
+    background-image: url("https://churchofjesuschrist.org/imgs/87de476c26c711ec9229eeeeac1e2796ce35432e/full/200%2C/0/default");
+}
+
+#devocionais-de-natal{
+    background-image: url("https://www.churchofjesuschrist.org/imgs/0bcbfe3a773e11eea297eeeeac1e3338fb70eb9e/full/200%2C/0/default");
+}
+
+#proclamacao-da-restauracao{
+    background-image: url("https://www.churchofjesuschrist.org/imgs/03bf6aab909ef44b45be155c5e2ac0e6374bfaab/full/200%2C/0/default");
+}
+
+#guia-para-os-jovens{
+    background-image: url("https://www.churchofjesuschrist.org/imgs/c0868b3a613411eda98feeeeac1e22561215e31c/full/200%2C/0/default");
+}
+#tema-dos-jovens{
+    background-image: url("https://churchofjesuschrist.org/imgs/9c2fe617005ece439383cd74e7ee108df1699681/full/200%2C/0/default");
+}
+
+#para-o-vigor-da-juventude{
+    background-image: url("https://www.churchofjesuschrist.org/imgs/946ae4c4c2491105ffcdeb47746bfd0c2d3be9e4/full/200%2C/0/default");
+}
+
+#ajuda-para-as-presidencias{
+    background-image: url("https://www.churchofjesuschrist.org/imgs/8ef204fb358a43cb71f112bee238a34fde96a6e0/full/200%2C/0/default");
+}
+
+#guia-para-as-criancas{
+    background-image: url("https://churchofjesuschrist.org/imgs/a82ec4390139fad31a699e661478f77db02992a2/full/200%2C/0/default");
+}
+
+#amigo{
+    background-image: url("https://churchofjesuschrist.org/imgs/d8729521e990be0c80df540b45b8957659d4a6cf/full/200%2C/0/default") ;
+    aspect-ratio: 200 / 267;
+}
+
+#jovens-adultos{
+    background-image: url("https://www.churchofjesuschrist.org/imgs/5ebc108688f911eca8b0eeeeac1eaf08bc3de579/full/200%2C/0/default");
 }
 
 .credits {
