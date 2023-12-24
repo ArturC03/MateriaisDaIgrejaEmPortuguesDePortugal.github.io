@@ -22,7 +22,7 @@ h2{
 
 /* CSS */
 body {
-    background-color: ghostwhite;
+    background-color: rgba(0, 0, 0, 0.05); /* Cor preta com 50% de opacidade */
     background-image: url("https://github.com/PandiiPT3/MateriaisDaIgrejaEmPortuguesDePortugal.github.io/blob/main/Imagens/estaca%20clipart%20TRANSPARENTE.png?raw=true");
     background-attachment: fixed;
     background-size: flex; /* Ensures the image covers the entire background */
@@ -48,7 +48,7 @@ body {
     display: flex;
     background-repeat: no-repeat;
     flex-direction: column;
-
+    
     justify-content: center;
     align-items: center;
     margin-right: 1cm;
@@ -99,6 +99,9 @@ body {
     flex-wrap: wrap; 
 
 }
+
+
+
 
 #liahona {
     background-image: url("https://www.churchofjesuschrist.org/imgs/2631a48e05024333eb397221ef809167a8a7f9d2/full/200%2C/0/default");
