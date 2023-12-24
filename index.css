@@ -1,7 +1,9 @@
 /* CSS */
 
 
-body {
+
+b
+ody {
     background-color: ghostwhite;
    
 }
@@ -21,6 +23,12 @@ h2{
 /* CSS */
 body {
     background-color: ghostwhite;
+    background-image: url("https://github.com/PandiiPT3/MateriaisDaIgrejaEmPortuguesDePortugal.github.io/blob/main/Imagens/estaca%20clipart%20TRANSPARENTE.png?raw=true");
+    background-attachment: fixed;
+    background-size: flex; /* Ensures the image covers the entire background */
+    background-position: center center; /* Centers the background image horizontally and vertically */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    /* Additional styles for the body */
 }
 
 .conteudo {
