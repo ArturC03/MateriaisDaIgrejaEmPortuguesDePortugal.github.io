@@ -5,15 +5,8 @@ body {
     background-color: ghostwhite;
    
 }
-
-.conteudo {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Divide em duas colunas */
-    gap: 20px; /* Espaço entre os elementos */
-    justify-content: center; /* Centraliza os elementos horizontalmente */
-    margin: 0 10px; /* Adiciona margem horizontal */
-    flex-wrap: wrap; 
-    
+hr {
+    margin: 40px 0;
 }
 h1{
     text-align: center; /* Centraliza o texto */
@@ -41,7 +34,6 @@ body {
 }
 
 .img-conteudo {
-    
     background-size: contain;
     
     height: 300px;
@@ -70,6 +62,7 @@ body {
 }
 
 .img-container {
+    
     aspect-ratio: 200 / 267;
     width: 144px;
     height: 15cm;
@@ -89,7 +82,15 @@ body {
     font-size: 16px;
 }
 
+.conteudo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Divide em duas colunas */
+    gap: 20px; /* Espaço entre os elementos */
+    justify-content: center; /* Centraliza os elementos horizontalmente */
+    margin: 0 10px; /* Adiciona margem horizontal */
+    flex-wrap: wrap; 
 
+}
 
 #liahona {
     background-image: url("https://www.churchofjesuschrist.org/imgs/2631a48e05024333eb397221ef809167a8a7f9d2/full/200%2C/0/default");
