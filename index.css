@@ -25,7 +25,7 @@ body {
     background-color: rgba(0, 0, 0, 0.05); /* Cor preta com 50% de opacidade */
     background-image: url("https://github.com/PandiiPT3/MateriaisDaIgrejaEmPortuguesDePortugal.github.io/blob/main/Imagens/estaca%20clipart%20TRANSPARENTE.png?raw=true");
     background-attachment: fixed;
-    background-size: flex; /* Ensures the image covers the entire background */
+    background-size: auto; /* Ensures the image covers the entire background */
     background-position: center center; /* Centers the background image horizontally and vertically */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     /* Additional styles for the body */
@@ -76,8 +76,7 @@ body {
     height: 15cm;
     border-radius: 4px;
     z-index: 10;
-   opacity:normal;
-   transition: .5s ease;
+    transition: .5s ease;
     background-repeat: no-repeat;
     padding:24px;
     border: 2px solid #000;
