@@ -49,4 +49,9 @@ document.getElementById("proclamacao-da-restauracao").addEventListener("click", 
     window.location.href ="https://www.churchofjesuschrist.org/study/scriptures/the-restoration-of-the-fulness-of-the-gospel-of-jesus-christ/a-bicentennial-proclamation-to-the-world?lang=ept";
 });
 
-// https://www.churchofjesuschrist.org/study/jesus-christ/christmas-videos/christmas-devotionals?lang=ept
+document.getElementById("guia-para-a-forca-dos-jovens").addEventListener("click", function() {
+    window.location.href ="https://www.churchofjesuschrist.org/study/manual/for-the-strength-of-youth?lang=ept";
+});
+
+
+// 
